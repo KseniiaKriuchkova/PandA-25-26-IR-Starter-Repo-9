@@ -5,6 +5,7 @@ HELP = """Commands:
   :help                   Show this help text
   :quit                   Exit the program
   :highlight on|off       Toggle highlighting of matches
+  :hl-mode                Change the colour of the highlighting for matches to DEFAULT / GREEN
   :search-mode AND|OR     Switch search mode (carry-over from Part 4/5)
 
 Usage:
