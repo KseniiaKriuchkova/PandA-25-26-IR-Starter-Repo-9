@@ -112,7 +112,7 @@ class SearchResult:
             # ToDo 2: You will need to use the new setting and for it a different ANSI color code: "\033[1;92m"
             if hl_mode == "DEFAULT":
                 out.append("\033[43m\033[30m")  # yellow background, black text
-            else:
+            elif hl_mode == "GREEN":
                 out.append("\033[1;92m")
             out.append(text[s:e])
             # ToDo 2: This stays the same. It just means "continue with default colors"

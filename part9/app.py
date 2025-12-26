@@ -10,9 +10,9 @@ Our very first new module! And... we are finally again adding new functionality.
 from typing import List
 import time
 
-from .constants import BANNER, HELP
-from .models import SearchResult
-from .file_utilities import Configuration
+from constants import BANNER, HELP
+from models import SearchResult
+from file_utilities import Configuration
 
 
 def print_results(
